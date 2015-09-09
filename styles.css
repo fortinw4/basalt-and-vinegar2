@@ -1,0 +1,84 @@
+/***************************
+	Inherited Styles
+***************************/
+
+html {
+	box-sizing: border-box;
+	font-family: "Arial", "Helvetica";
+	font-size: 24px;
+	font-color: #000;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	font: inherit;
+	color: inherit;
+}
+
+/***************************
+	Defaults
+***************************/
+
+body {
+	margin: 0;
+}
+
+/***************************
+
+***************************/
+
+.header-primary {
+	height: 400px;
+	background-image: url("images/hero.jpg");
+	background-size: cover;
+	
+}
+
+.header-primary nav {
+	text-align: right;
+	margin-right: 60px;
+	padding-top: 10px;
+}
+
+.header-primary nav a {
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+}
+
+.header-primary h1 {
+	text-align: center;
+	font-family: "Tangerine", "cursive";
+	font-size: 5em;
+	margin-top: 125px;
+}
+
+.mid-section {
+	text-align: center;
+	height: 650px;
+}
+
+.mid-section h2 {
+	font-size: 2em;
+}
+
+.gallery-primary {
+	display: flex;
+}
+
+.gallery-primary .one {
+	flex: 1;
+}
+
+.gallery-primary .two {
+	flex: 1;
+}
+
+.gallery-primary .three {
+	flex: 1;
+}
+
+.bottom-section {
+	text-align: center;
+	height: 400px;
+	background-color: grey;
+}
