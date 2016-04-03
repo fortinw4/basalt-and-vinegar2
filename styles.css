@@ -5,7 +5,7 @@
 html {
 	box-sizing: border-box;
 	font-family: "Arial", "Helvetica";
-	font-size: 24px;
+    font-size: 12pt;
 	color: #42302C;
 	background-color: #FFF5EE;
 }
@@ -76,8 +76,8 @@ body {
 }
 
 .mid-section .gallery-primary .one img {
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 .mid-section .gallery-primary .two {
@@ -85,8 +85,8 @@ body {
 }
 
 .mid-section .gallery-primary .two img {
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 .mid-section .gallery-primary .three {
@@ -94,8 +94,8 @@ body {
 }
 
 .mid-section .gallery-primary .three img {
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 .bottom-section {
@@ -127,7 +127,11 @@ body {
 }
 
 
-@media screen and (min-width: 900px){
+@media only screen and (min-width: 900px){
+
+	body {
+		font-size: 2em;
+	}
 
 	.header-primary {
 		height: 400px;
@@ -151,7 +155,11 @@ body {
 	}
 
 	.mid-section h2 {
-		font-size: 1.5em;
+		font-size: 1em;
+	}
+
+	.mid-section p {
+		font-size: .75em;
 	}
 
 	.mid-section .gallery-primary .one img {
@@ -168,7 +176,10 @@ body {
 		height: 350px;
 		width: 350px;
 	}
-
+	
+	.bottom-section {
+		font-size: .75em;
+	}
 	.bottom-section p {
 		margin: 42px 898px 0 155px;
 	}
@@ -183,7 +194,11 @@ body {
 
 }
 
-@media screen and (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
+
+	.mid-section h2 {
+		font-size: 3em;
+	}
 
 	.bottom-section p {
 		float: left;
